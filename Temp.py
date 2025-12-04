@@ -12,7 +12,7 @@ st.header('Datos')
 
 def user_input_features():
   # Entrada
-  City = st.number_input('Ciudad ():', min_value=0, max_value=2, value = 0, step = 1)
+  City = st.number_input('Ciudad (Acapulco:0, Acuña:1, Aguascalientes:2):', min_value=0, max_value=2, value = 0, step = 1)
   month = st.number_input('Mes:',  min_value=1, max_value=12, value = 1, step = 1)
   year = st.number_input('Año:', min_value=0, max_value=5000, value = 0, step = 1)
 
